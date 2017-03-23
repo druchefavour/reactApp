@@ -15,4 +15,6 @@ Create MongoDB database :
 			*title (Title of the stored article from nytimes.com)
 			*date (publish date and time of the article)
 			*url (URL of the article on nytimes.com)
-		*Define an optional element required for title and set it as true
+		*Define an optional element required for title and url and set the value as true
+		*Define a default element for date and set it at date now.
+	*Create a public folder that will hold the index.html and bundle.js files
