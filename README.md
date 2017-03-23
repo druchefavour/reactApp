@@ -10,3 +10,9 @@ Create MongoDB database :
 		* In Article.js First - Require Mongoose 	
 		* Create Schema Class
 		* Create a means to export our model (module.export and call our model Article Schema)
+		*Define ArticleSchema as a new Schema and set up our value pair as arguments of the newSchema object
+		Articles have each of the following fields:
+			*title (Title of the stored article from nytimes.com)
+			*date (publish date and time of the article)
+			*url (URL of the article on nytimes.com)
+		*Define an optional element required for title and set it as true
