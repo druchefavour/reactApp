@@ -18,3 +18,22 @@ Create MongoDB database :
 		*Define an optional element required for title and url and set the value as true
 		*Define a default element for date and set it at date now.
 	*Create a public folder that will hold the index.html and bundle.js files
+	* Create a Bootstrap layout for index.html. 
+
+	* APP FOLDER
+		* Create an app folder. Inside the app folder: 
+		* Create an app.js file
+		* Inside the app.js file
+			* Include the Main React Dependencies
+				* Require react
+				* Require react-dom
+			* Create config. directory. 
+				* Inside the config directory, create a route.js file
+					* Inside the route.js file, 
+						* Require the react library
+						* Require the react-router module	
+			* Inside the app folder
+			* Create the component directory. 
+				* Inside the componet directory
+					* Create a main.js
+				
