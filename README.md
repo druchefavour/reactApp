@@ -22,27 +22,33 @@ Create MongoDB database :
 	* Inside index.html, set div id = "app" as a root element for our app and add bundle.js script which is our bundled app file. 
   
  * APP FOLDER
-		* Create an app folder. Inside the app folder: 
-		* Create an app.js file
-		* Inside the app.js file
-			* Include the Main React Dependencies
-				* Require react
-				* Require react-dom
-			* Create config. directory. 
-				* Inside the config directory, create a route.js file
-					* Inside the route.js file, 
-						* Require the react library
-						* Require the react-router module	
-			* Inside the app folder
-			* Create the component directory. 
-				* Inside the component directory
-					*Create a form.js to render the input form for the article search
-						* Inside the form component, include React by requiring React
-						* Create the form component using "React.createClass"
-						* Inside the create class function set a generic state associated with the text being searched for
-						* Set a function "handleChange" that will respond to the user search input
-						* Set a function which sets the parent to have the search term when the USER CLICKS SUBMIT and
-						* prevents the HTML from trying to submit a form if the user hits "Enter" instead of clicking the button: use 'event.preventDefault()';
+   * Create an app folder. Inside the app folder:
+     * Create an app.js file
+     * Inside the app.js file
+       * Include the Main React Dependencies
+       * Require react
+       * Require react-dom
+       * Create config. directory. 
+       * Inside the config directory, 
+         * Create a route.js file
+         * Inside the route.js file,
+           * Require the react library
+           * Require the react-router module
+     * Inside the app folder
+       * Create the component directory.
+       * Inside the component directory
+         * Create children folder
+         * Inside the children folder 
+           * Create form.js to render the input form for the article search
+           * Inside the form component, include React by requiring React
+             * Create the form component using "React.createClass"
+             * Inside the create class function set a generic state associated with the text being searched for
+             * Write the form as CONTROLLED COMPONENTS
+             * Set a function "handleChange" that will respond to the user search input
+             * Set a function which sets the parent to have the search term when the USER CLICKS SUBMIT and
+             * prevents the HTML from trying to submit a form if the user hits "Enter" instead of clicking the button: use 'event.preventDefault()';
+             * Describe the form component's render method
+             * Export the component back for use in other files
 
 
 
